@@ -3,11 +3,11 @@
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'customer-service-edwin'
+app = {APPNAME}
 primary_region = 'sin'
 
 [build]
-  image = 'edwinmalihu/customer-service-fly:latest'
+  image = {IMAGE}
 
 [env]
   SERVER_PORT = '8080'
