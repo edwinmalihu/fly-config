@@ -7,7 +7,7 @@ app = '{APPNAME}'
 primary_region = 'sin'
 
 [build]
-  image = '{IMAGE}'
+  image = 'edwinmalihu/cutomer-service-fly:latest'
 
 [env]
   SERVER_PORT = '8080'
