@@ -7,7 +7,7 @@ app = '{APPNAME}'
 primary_region = 'sin'
 
 [build]
-  image = 'edwinmalihu/cutomer-service-fly:latest'
+  image = 'edwinmalihu/customer-service-fly:latest'
 
 [env]
   SERVER_PORT = '8080'
