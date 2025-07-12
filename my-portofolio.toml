@@ -2,6 +2,7 @@ app = '{APPNAME}'
 primary_region = 'sin'
 
 [build]
+  image = 'edwinmalihu/my-portofolio:latest'
 
 [http_service]
   internal_port = 80
